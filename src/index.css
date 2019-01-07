@@ -6,9 +6,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: azure
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+li {
+  margin: 10px;
+  /* border: 1px solid black; */
+  box-shadow: 0 8px 6px -6px #777;
+  list-style: none ;
+  background-color: white;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.row {
+  justify-content: space-evenly;
+  margin-right: 0px
+}
+p {
+  margin: 0px
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.editable {
+  overflow-wrap: break-word;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.form {
+  position:fixed;
+  top: 15%;
+  left: 50%;
+  width:30em;
+  margin-left: -15em;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  padding: 10px;
+  box-shadow: 0 8px 6px -6px #777;
+}
+
+.hover {
+  cursor: pointer;
+  color: blue
 }
